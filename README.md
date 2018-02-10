@@ -19,6 +19,22 @@ https://github.com/dangdangdotcom/dubbox
 - [Dubbox@InfoQ](http://www.infoq.com/cn/news/2014/10/dubbox-open-source) 
 - [Dubbox Wiki](https://github.com/dangdangdotcom/dubbox/wiki) （由社区志愿者自由编辑的）
 
+## dubbo原理和设计相关材料
+
+[阿里巴巴(B2B)的服务框架探索(钱霄).pdf](https://github.com/alibaba/dubbo/files/1713440/B2B.pdf)
+
+[High_Performance_Remoting.pdf](https://github.com/alibaba/dubbo/files/1713445/High_Performance_Remoting.pdf)
+
+[Service_Framework_Practices.pdf](https://github.com/alibaba/dubbo/files/1713448/Service_Framework_Practices.pdf)
+
+[Dubbo_Framework_Extensions.pdf](https://github.com/alibaba/dubbo/files/1713442/Dubbo_Framework_Extensions.pdf)
+
+[Dubbo_RPC_Features.pdf](https://github.com/alibaba/dubbo/files/1713443/Dubbo_RPC_Features.pdf)
+
+[DubboInternals.zip](https://github.com/alibaba/dubbo/files/1713446/DubboInternals.zip)
+
+[Framework_Design_Principles.pdf](https://github.com/alibaba/dubbo/files/1713444/Framework_Design_Principles.pdf)
+
 ## spring-boot-starter-dubbo
 已有的可用starter:
  - [https://github.com/cyzaoj/spring-boot-dubbo-starter](https://github.com/cyzaoj/spring-boot-dubbo-starter) 可以配置protocol、registry、provider
@@ -92,4 +108,4 @@ dubbox 目前版本到了2.8.4了。
 4. 生态扩张，与更多业内常用的框架整合或connect，触角衍生到更多的应用场景，保持活力。
 
 
-v1.0
+v1.1
