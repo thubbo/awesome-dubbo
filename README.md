@@ -1,13 +1,17 @@
-## dubbo ecosystem
+## Dbbo ecosystem
 
-## dubbo
+## Dubbo
 Dubbo是一个高性能、可扩展的分布式服务框架，基于RPC，支持多种协议调用、服务监控和治理，同时是去中心化的框架，对应用侵入性小。 
 ![](http://static.oschina.net/uploads/img/201110/30093737_2LhG.jpg)
-- [官方网站](http://dubbo.io)
-- [GitHub源码](https://github.com/alibaba/dubbo)
-- [官方文档](https://github.com/alibaba/dubbo/wiki)
+- [官方网站](http://dubbo.apache.org)
+- [GitHub源码](https://github.com/apache/incubator-dubbo)
+- [官方文档](http://dubbo.apache.org)
+- [官方Wiki](https://github.com/apache/incubator-dubbo/wiki)
 
 ## dubbox
+
+Dubbox的功能目前已经合并到Dubbo核心代码仓库中。
+
 https://github.com/dangdangdotcom/dubbox
 来自dangdang网，主要是实现了基于JBoss RestEasy的rest支持，升级了spring、zk、json等依赖库，并且一直在维护。目前已经release的版本到2.8.4了。
 文档资料：
@@ -19,23 +23,23 @@ https://github.com/dangdangdotcom/dubbox
 - [Dubbox@InfoQ](http://www.infoq.com/cn/news/2014/10/dubbox-open-source) 
 - [Dubbox Wiki](https://github.com/dangdangdotcom/dubbox/wiki) （由社区志愿者自由编辑的）
 
-## dubbo原理和设计相关材料
+## Dubbo原理和设计相关材料
 
-[阿里巴巴(B2B)的服务框架探索(钱霄).pdf](https://github.com/alibaba/dubbo/files/1713440/B2B.pdf)
+[Service_Framework_Practices.pdf](https://github.com/dubbo/awesome-dubbo/raw/master/slides/Service_Framework_Practices.pdf)
 
-[High_Performance_Remoting.pdf](https://github.com/alibaba/dubbo/files/1713445/High_Performance_Remoting.pdf)
+[High_Performance_Remoting.pdf](https://github.com/dubbo/awesome-dubbo/raw/master/slides/High_Performance_Remoting.pdf)
 
-[Service_Framework_Practices.pdf](https://github.com/alibaba/dubbo/files/1713448/Service_Framework_Practices.pdf)
+[Framework_Design_Principles.pdf](https://github.com/dubbo/awesome-dubbo/raw/master/slides/Framework_Design_Principles.pdf)
 
-[Dubbo_Framework_Extensions.pdf](https://github.com/alibaba/dubbo/files/1713442/Dubbo_Framework_Extensions.pdf)
+[Dubbo_RPC_Features.pdf](https://github.com/dubbo/awesome-dubbo/raw/master/slides/Dubbo_RPC_Features.pdf)
 
-[Dubbo_RPC_Features.pdf](https://github.com/alibaba/dubbo/files/1713443/Dubbo_RPC_Features.pdf)
+[Dubbo_Framework_Extensions.pdf](https://github.com/dubbo/awesome-dubbo/raw/master/slides/Dubbo_Framework_Extensions.pdf)
 
-[DubboInternals.zip](https://github.com/alibaba/dubbo/files/1713446/DubboInternals.zip)
 
-[Framework_Design_Principles.pdf](https://github.com/alibaba/dubbo/files/1713444/Framework_Design_Principles.pdf)
 
 ## spring-boot-starter-dubbo
+
+
 已有的可用starter:
  - [https://github.com/cyzaoj/spring-boot-dubbo-starter](https://github.com/cyzaoj/spring-boot-dubbo-starter) 可以配置protocol、registry、provider
  - [https://github.com/linking12/spring-boot-starter-dubbo](https://github.com/linking12/spring-boot-starter-dubbo) 可以自动配置、暴露服务
@@ -94,6 +98,7 @@ https://github.com/jiangmin168168/jim-framework
 原理：[dubbo+zipkin调用链监控](http://www.cnblogs.com/ASPNET2008/p/6709900.html)
 
 ## 其他事宜
+
 dubbo 2.5.3以后就没有release了。
 dubbox 目前版本到了2.8.4了。
 
