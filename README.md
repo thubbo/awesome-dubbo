@@ -1,7 +1,7 @@
 ## Dubbo ecosystem
 
 ## Dubbo
-Dubbo是一个高性能、可扩展的分布式服务框架，基于RPC，支持多种协议调用、服务监控和治理，同时是去中心化的框架，对应用侵入性小。 
+Dubbo是一个高性能、可扩展的分布式服务框架，基于RPC，支持多种协议调用、服务监控和治理，同时是去中心化的框架，对应用侵入性小。
 
 ![](http://static.oschina.net/uploads/img/201110/30093737_2LhG.jpg)
 - [官方网站](http://dubbo.apache.org)
@@ -21,7 +21,7 @@ https://github.com/dangdangdotcom/dubbox
 - [使用JavaConfig方式配置dubbox](https://dangdangdotcom.github.io/dubbox/java-config.html)
 - [Dubbo Jackson序列化使用说明](https://dangdangdotcom.github.io/dubbox/jackson.html)
 - [Demo应用简单运行指南](https://dangdangdotcom.github.io/dubbox/demo.html)
-- [Dubbox@InfoQ](http://www.infoq.com/cn/news/2014/10/dubbox-open-source) 
+- [Dubbox@InfoQ](http://www.infoq.com/cn/news/2014/10/dubbox-open-source)
 - [Dubbox Wiki](https://github.com/dangdangdotcom/dubbox/wiki) （由社区志愿者自由编辑的）
 
 ## Dubbo原理和设计相关材料
@@ -40,6 +40,8 @@ https://github.com/dangdangdotcom/dubbox
 
 ## spring-boot-starter-dubbo
 
+官方starter(maintained by mercyblitz)：
+- [https://github.com/apache/incubator-dubbo-spring-boot-project](https://github.com/apache/incubator-dubbo-spring-boot-project)
 
 已有的可用starter:
  - [https://github.com/cyzaoj/spring-boot-dubbo-starter](https://github.com/cyzaoj/spring-boot-dubbo-starter) 可以配置protocol、registry、provider
@@ -98,20 +100,17 @@ https://github.com/jiangmin168168/jim-framework
 
 原理：[dubbo+zipkin调用链监控](http://www.cnblogs.com/ASPNET2008/p/6709900.html)
 
+
+## 整合了dubbo及多个常见框架的脚手架项目
+
+https://gitee.com/hackempire/emsite-parent
+
+## 使用jmeter做dubbo接口压力测试的插件
+
+https://github.com/ningyu1/jmeter-plugins-dubbo
+
 ## 其他事宜
 
-dubbo 2.5.3以后就没有release了。
-dubbox 目前版本到了2.8.4了。
+2017年10月份以来，继续维护了。
 
-最近阿里的teaey又在开始维护dubbo相关bug处理，目前还没有发布新的release版本。
-
-梁飞同学这几年一直在提dubbo新一代的计划，不知道大家对这一块有什么想法，一同来brainstorm一下吧。
-
-我的想法：
-1. 重新设计，各块的概念进一步理清，考虑基于springboot，吸收springcloud等框架的部分设计理念，优化架构。
-2. 项目拆分，dubbo的项目结构分成两大类，核心部分一个repo：包括基础概念、提供者、消费者，可扩展的协议支持类型；生态工具类一个或多个repo：admin、monitor这些，单独发展，灵活发展。
-3. 异构支持，着重发展rest或某二进制rpc平台无关协议，然后基于此解决异构系统的集成整合问题，起码加到admin、monitor里一起管控起来，增强管理能力。
-4. 生态扩张，与更多业内常用的框架整合或connect，触角衍生到更多的应用场景，保持活力。
-
-
-v1.1
+v1.2
