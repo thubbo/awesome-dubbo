@@ -36,6 +36,9 @@ https://github.com/dangdangdotcom/dubbox
 
 [Dubbo_Framework_Extensions.pdf](https://github.com/dubbo/awesome-dubbo/raw/master/slides/Dubbo_Framework_Extensions.pdf)
 
+## Dubbo PPT
+
+[Dubbo 开源现状与未来规划](https://github.com/dubbo/awesome-dubbo/raw/master/slides/dubbo-present-and-future.pdf)
 
 
 ## spring-boot-starter-dubbo
