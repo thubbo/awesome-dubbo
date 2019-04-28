@@ -1,5 +1,8 @@
 [TOC]
 
+Dubbo STARCHARTS:
+[![Stargazers over time](https://starchart.cc/apache/incubator-dubbo.svg)](https://starchart.cc/apache/incubator-dubbo)
+
 # Dubbo ecosystem
 ## 1. Dubbo framework
 Dubbo is a high-performance, scalable distributed service framework, based on RPC, supporting multiple protocol invocation, service monitoring and governance.At the same time, it is a centralization framework with little invasion to application.
